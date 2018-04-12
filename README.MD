@@ -16,11 +16,11 @@ Before beginnign, it is important to note this:
 The program is used:
 
 ## JSRFSoundTool(.exe) [join/split] (sound effect file)
-Example: JSRFSoundTool pv_gum.dat
+Example: JSRFSoundTool split pv_gum.dat
 
 The sound effect file must be placed in the folder "JSRFInput" for either of the commands.
 
-The split command splits a JSRF sound file into individual wav files and writes them to the folder "WavOutput" (Which must already exist for the program to work), with the naming scheme pv_gum_1.wav, etc. The wav files will be in Xbox ADPCm format.
+The split command splits a JSRF sound file into individual wav files and writes them to the folder "WavOutput" (Which must already exist for the program to work), with the naming scheme pv_gum_1.wav, etc. The wav files will be in Xbox ADPCM format.
 
 The Join command will make a JSRF sound effect file from individual wav files in the "WavInput" folder of the same number and naming scheme as the split command would give. The wav files must be in Xbox ADPCM format. (It is good practice run split on the file you want to edit, replace the wavs, and then move them to the WavInput folder and run join). Note that the original sound effect file is required for this process (or generated SE file derrived from the original of its type, but it is good practce to always use originals for the JSRFInput. The file will be written into the folder "JSRFOutput"
 
